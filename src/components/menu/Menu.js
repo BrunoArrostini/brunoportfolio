@@ -9,17 +9,19 @@ export default function Menu() {
   const navigate = useNavigate();
   const goAbout = () => {
     navigate("/about/")
+    window.scrollTo(300,-800)
   }
 
   const goHome = () => {
-    navigate("/")
+    navigate("/");
+    window.scrollTo(300,-800)
   }
 
 
   return (
     <Container>
-      <button onClick={goHome}><HomeIcon className='icons'/></button>
-      <button onClick={goAbout}><BadgeIcon className='icons'/></button>
+      <button onClick={goHome}><HomeIcon className='icons'/>Home</button>
+      <button onClick={goAbout}><BadgeIcon className='icons'/>About me</button>
     </Container>
   );
 }
