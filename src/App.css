@@ -132,3 +132,62 @@ h2{
 .aboutText{
   width: 350px;
 }
+
+.contacts{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-top: 1px solid #0abab5;
+  padding: 20px;
+}
+
+.contacts >button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  background-color: white;
+  width: 150px;
+  cursor: pointer;
+}
+
+.personal{
+  height: 200px;
+  width: 100%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.personal >button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  background-color: white;
+  width: 150px;
+  cursor: pointer;
+  margin-top: 30px;
+  color: red;
+}
+
+.personal > p{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.personal >h3{
+  color: #0abab5;
+  text-shadow: 1px 0px 3px black;
+}

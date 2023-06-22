@@ -4,6 +4,7 @@ import rafs from "../images/rafs.gif"
 import si from "../images/healthy-veg.gif"
 import world from "../images/world.gif"
 import portfolio from "../images/portfolio.gif"
+import foto from "../images/foto-profil.jpg"
 
 const Main = () => {
 
@@ -54,6 +55,7 @@ const Main = () => {
         }
         {show3 ? <div></div> : <>
         <Cards title={"City advisor"} descripton={"Useful info about cities"} name={"City advisor"} src={world} path={"https://cityadvisor.netlify.app"}/>
+        <Cards title={"Portfolio"} descripton={"My personal website"} name={"Portfolio"} src={foto} path={"https://brunoarrostini.netlify.app"}/>
         </>
         }
         {show5 ? <div></div> : <>
