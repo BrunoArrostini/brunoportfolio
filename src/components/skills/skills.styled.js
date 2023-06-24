@@ -35,5 +35,6 @@ export const Wrapper2 = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-height: 300px;
+height: 150px;
+width: 100%;
 `

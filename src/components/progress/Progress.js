@@ -16,9 +16,15 @@ export default function Progress({lang}) {
   }, []);
 
   return (
-    <Stack spacing={2} direction="row" style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-      <CircularProgress variant="determinate" value={progress} style={{width:"150px", marginRight:"80px"}} />
-      <p style={{marginRight:"0px"}}>{lang}</p>
+    <Stack spacing={0} direction="row">
+      <div className='circle'>
+        <CircularProgress variant="determinate" value={progress} style={{width:"80px", position: "absolute",
+          left: "50%",
+          bottom: "50%",
+          transform: "translate(-50%, -50%)"}}/>
+        <p>{lang}</p>
+      </div>
+
     </Stack>
   );
 }

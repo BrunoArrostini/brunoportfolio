@@ -198,3 +198,18 @@ h2{
   color: #0abab5;
   text-shadow: 1px 0px 3px black;
 }
+
+.circle{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle >p{
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
