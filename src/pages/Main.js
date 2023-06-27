@@ -45,7 +45,7 @@ const Main = () => {
         <h2>Portfolio <img src={portfolio} alt="" className='portfolio'></img></h2>
         {showProj ? <div></div> :
         <>
-        <Cards title={"Fly green"} descripton={"Filght emmissions calculator"} src={rafs} name={"Fly green"} vdsrc={"../public/video/video1.MP4"} 
+        <Cards title={"Fly green"} descripton={"Flight emmissions calculator"} src={rafs} name={"Fly green"} vdsrc={"../public/video/video1.MP4"} 
         path={"https://flygreen.netlify.app"}/>
         </>
         }
