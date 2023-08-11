@@ -11,17 +11,8 @@ padding: 10px;
 margin-right: 15px;
 box-shadow: 4px 8px 14px gray;
 margin-bottom: 20px;
-animation: animato 5s linear infinite;
 position: relative;
 
-@keyframes animato {
-  0%, 100% {
-    bottom: 0;
-  }
-  50% {
-  bottom:20px;
-  }
-  }
 `;
 
 export const Wrapper = styled.div`
